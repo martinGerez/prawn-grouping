@@ -37,7 +37,7 @@ module Prawn
           yield self
         else
           fits_new_context.call if fits_new_context
-          bounds.move_past_bottom
+          # bounds.move_past_bottom
           yield self
         end
         return false
